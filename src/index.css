@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  font-size: 1.1rem;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.content{
+  margin-top: 6.8rem;
+}
+
+.titlebar{
+  max-width: 100vw;
+  max-height: 4rem;
+  background-color: #222831;
+  color: whitesmoke;
+  padding: 1rem 0.5rem;
+}
+
+.menubar{
+  display: flex;
+  max-width: fit-content;
+  max-height: 100vh;
+}
+
+.menu-icon{
+  background-color: #222831;
+  max-width: fit-content;
+  max-height: 2.1rem;
+  padding: 0.5rem;
+  margin: 0.6rem 0rem 0rem 0.6rem;
+  border-radius: 50%;
+}
+
+.menu-list{
+  background-color: #222831;
+  color: whitesmoke;
+  width: fit-content;
+  height: 100vh;
+  padding: 0.4rem 1.2rem;
+}
+
+.menu-list ul{
+  width: fit-content;
+  margin-top: 2rem;
+  list-style-type: none;
+}
+
+.menu-list ul li{
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.menu-list ul li a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.content-box{
+  max-width: fit-content;
+  max-height: fit-content;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: auto;
+  border: 0.1rem solid #222831;
+  border-radius: 1rem;
+  box-shadow: 2px 1px #404854;
+}
+
+.form-card{
+  margin: auto;
+  margin-top: 10%;
+  text-align: center;
+  max-width: 18rem;
+  padding: 1rem 2rem;
+  border: 0.1rem solid #222831;
+  border-radius: 1rem;
+  box-shadow: 0.3rem 0.2rem #404854;
+}
+
+.form-card input{
+  margin: 1rem 0rem;
+  padding: 0.4rem 0.7rem;
+  border: 0.1rem solid #222831;
+  border-radius: 0.3rem;
+}
+
+.form-card button{
+  padding: 0.3rem 0.2rem;
+  background-color: #222831;
+  border: 0;
+  border-radius: 0.4rem;
+  padding: 0.4rem 0.7rem;
+  color: whitesmoke;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+#userBalance{
+  color: #222831;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+table{
+  max-width: fit-content;
+  margin-left: 1.5rem;
+  width: 100%;
+  border-spacing: 1rem;
+}
+
+td{
+  max-width: fit-content;
+  margin-left: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px groove #ffffff;
+}
+
+.label{
+  max-width: fit-content;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+#error{
+  color: #ed6e6e;
+}
+
+.page-title{
+  margin: 0rem 0rem 1.7rem 1.7rem;
+}
+
+.text-content{
+  font-weight: 500;
+  margin: 0rem 2rem 0rem 3rem;
+  line-height: 1.4;
+}
+
+.text-content ul{
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
